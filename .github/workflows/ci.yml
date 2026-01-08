@@ -20,10 +20,10 @@ jobs:
 
       - name: Build & Push Backend Image
         run: |
-          docker build -t sarangraii/onestopsaloncicd-backend ./backend
-          docker push sarangraii/onestopsaloncicd-backend
+          docker build -t sarangraii/onestopsalon-cicd-backend ./backend
+          docker push sarangraii/onestopsalon-cicd-backend
 
       - name: Build & Push Frontend Image
         run: |
-          docker build -t sarangraii/onestopsaloncicd-frontend ./frontend
-          docker push sarangraii/onestopsaloncicd-frontend
+          docker build -t sarangraii/onestopsalon-cicd-frontend ./frontend
+          docker push sarangraii/onestopsalon-cicd-frontend
